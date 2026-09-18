@@ -1,0 +1,7 @@
+poam_id,control_id,frameworks,technology_source,weakness,recommended_action,owner,target_date,risk_rating,risk_score
+POAM-001,AU.L2-3.3.1,CMMC L2; NIST 800-171 3.3.1; FedRAMP AU-2; SOC 2 CC7,GCP,Centralized logging evidence is missing,Collect and validate control evidence,Security Engineering,2026-09-30,Critical,15
+POAM-002,CA.L2-3.12.1,CMMC L2; NIST 800-171 3.12.1; FedRAMP CA-2; SOC 2 CC4,Cloud and SaaS,Automated evidence collection design is not yet implemented,Collect and validate control evidence,GRC,2026-10-10,Critical,15
+POAM-003,SI.L2-3.14.1,CMMC L2; NIST 800-171 3.14.1; FedRAMP SI-2; PCI DSS 6,Endpoints,Vulnerability remediation evidence requires refresh,Refresh and reapprove evidence,Vulnerability Management,2026-09-25,High,9
+POAM-004,AC.L2-3.1.5,CMMC L2; NIST 800-171 3.1.5; FedRAMP AC-6,AWS,Privileged-role review evidence is incomplete,Resolve evidence gap and document scope,Cloud Security,2026-10-01,High,6
+POAM-005,CM.L2-3.4.1,CMMC L2; NIST 800-171 3.4.1; FedRAMP CM-2,GitHub,Repository protection evidence lacks complete scope,Resolve evidence gap and document scope,DevSecOps,2026-10-05,Medium,4
+POAM-006,RA.L2-3.11.1,CMMC L2; NIST 800-171 3.11.1; FedRAMP RA-3,Enterprise GRC,Business-unit risk assessment coverage is incomplete,Resolve evidence gap and document scope,GRC,2026-10-15,Medium,4

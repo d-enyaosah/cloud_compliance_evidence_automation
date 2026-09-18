@@ -1,0 +1,11 @@
+control_id,frameworks,control_expectation,technology_source,evidence_status,last_collected_date,next_review_date,criticality,owner,target_date,gap_description
+AC.L2-3.1.1,CMMC L2; NIST 800-171 3.1.1; FedRAMP AC-2,Authorized access is limited and periodically reviewed,Okta,current,2026-08-15,2026-11-15,high,IAM Owner,2026-11-15,No current gap
+AC.L2-3.1.5,CMMC L2; NIST 800-171 3.1.5; FedRAMP AC-6,Least privilege is implemented for privileged identities,AWS,partial,2026-07-20,2026-10-20,high,Cloud Security,2026-10-01,Privileged-role review evidence is incomplete
+AU.L2-3.3.1,CMMC L2; NIST 800-171 3.3.1; FedRAMP AU-2; SOC 2 CC7,Audit logs are defined collected and retained,GCP,missing,,,high,Security Engineering,2026-09-30,Centralized logging evidence is missing
+CM.L2-3.4.1,CMMC L2; NIST 800-171 3.4.1; FedRAMP CM-2,Configuration baselines are documented and controlled,GitHub,partial,2026-06-12,2026-09-12,medium,DevSecOps,2026-10-05,Repository protection evidence lacks complete scope
+SI.L2-3.14.1,CMMC L2; NIST 800-171 3.14.1; FedRAMP SI-2; PCI DSS 6,Security flaws are identified prioritized and remediated,Endpoints,stale,2026-03-01,2026-08-30,high,Vulnerability Management,2026-09-25,Vulnerability remediation evidence requires refresh
+IR.L2-3.6.1,CMMC L2; NIST 800-171 3.6.1; FedRAMP IR-4; SOC 2 CC7,Incident response capability is established and tested,SaaS Services,current,2026-08-01,2027-02-01,high,Incident Response,2027-02-01,No current gap
+IA.L2-3.5.3,CMMC L2; NIST 800-171 3.5.3; FedRAMP IA-2; PCI DSS 8,Multifactor authentication protects applicable access,Okta,current,2026-09-01,2026-12-01,high,IAM Owner,2026-12-01,No current gap
+RA.L2-3.11.1,CMMC L2; NIST 800-171 3.11.1; FedRAMP RA-3,Risk assessments are conducted and updated,Enterprise GRC,partial,2026-07-01,2026-10-01,medium,GRC,2026-10-15,Business-unit risk assessment coverage is incomplete
+CA.L2-3.12.1,CMMC L2; NIST 800-171 3.12.1; FedRAMP CA-2; SOC 2 CC4,Controls are periodically assessed for effectiveness,Cloud and SaaS,missing,,,high,GRC,2026-10-10,Automated evidence collection design is not yet implemented
+SC.L2-3.13.8,CMMC L2; NIST 800-171 3.13.8; FedRAMP SC-13; PCI DSS 4,Controlled unclassified information is protected in transit,AWS; GCP,current,2026-08-20,2026-11-20,high,Cloud Security,2026-11-20,No current gap
