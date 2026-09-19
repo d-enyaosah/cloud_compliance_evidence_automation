@@ -10,7 +10,7 @@ jobs:
 
     defaults:
       run:
-        working-directory: cloud_compliance_evidence_automation_main/cloud_compliance_evidence_automation
+        working-directory: cloud_compliance_evidence_automation-main/cloud_compliance_evidence_automation
 
     steps:
       - name: Download repository
